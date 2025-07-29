@@ -1,0 +1,323 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.header{
+    background-image: url(imagess/img1.png);
+    width: 100%;
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;}
+.header h1{
+    color: #4d9893;
+    font-size: 80pt;
+    
+    
+
+}
+.profile h1{
+    color: #221f20;
+    font-size: 60pt;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.section1 {
+    background-image: url(imagess/img2.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.title {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+.p0 {
+    
+    width: 870px;
+    padding:30px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+    background-color: #4d989354 ;
+    
+    
+    
+}
+.carousel {
+width: 580px;
+height: 550px;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators {
+    background-color:#4d9893;
+}
+
+.carousel-control-prev-icon {
+    background-color: #4d989371;
+}
+
+.carousel-control-next-icon{
+    background-color: #4d989371;
+}
+.hobby-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.icon-wrapper {
+    width: 150px;
+    height: 150px;
+    border: #4d9893 solid;
+    border-radius: 150px;
+    padding: 30px;
+    width: 140px;
+    height: 140px;
+}
+
+.job-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.vl {
+    border-left: 1.8px solid #000000;
+    height: 136px;
+}
+.icon-wrapper1 {
+    width: 150px;
+    height: 150px;
+    border: #4d9893 solid;
+    border-radius: 150px;
+    padding: 6px;
+    width: 140px;
+    height: 140px;
+}
+.p2 {
+    
+    width: 760px;
+    padding-top: 20px; 
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18pt;
+    
+    
+}
+.p1 {
+    
+    width: 660px;
+    padding-top: 20px; 
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+span {
+    color: #4d9893;
+    font-weight: bold;
+}
+
+.section2 {
+    background-image: url(imagess/img2.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+.skills h2 {
+    padding: 20px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400 bold;
+    font-style: normal;
+    font-size: 17pt;
+    
+}
+.soft-skills{
+    display:inline-block;
+    border: #9fcedf solid 11px ;
+    border-radius: 150px;
+    background: #9fcedf;
+    width: 300px;
+    height: 280px;   
+
+}
+
+
+.skills li{
+    color: rgba(0, 0, 0, 0.733) ;
+    font-size: 15pt;
+    font-weight: 200;
+    width: 190px;
+    margin-left: 40px;
+}
+.middle{
+    border: #4d9893  solid 11px ;
+    border-radius: 150px;
+    background: #4d9893;
+    width: 280px;
+    height: 280px; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.section3 {
+    background-image: url(imagess/img2.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 250px;
+
+    
+}
+
+.title2 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 70px 0;
+    font-size: 24pt;
+    text-align: center;
+    
+    
+}
+
+.projects{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.section3 h1{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24pt;
+    text-align: center;
+    padding: 90px 0 90px 0;
+}
+.projects img{
+    width:550px;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.projects img:hover{
+    transform: rotate(360deg);
+}
+
+.section3 p{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18pt;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects h2 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px ;
+
+}
+.projects a{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.section4{
+    background-image: url(imagess/img3.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 99vh;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+
+}
+
+.section4 h1{
+    color: #221f20;
+    font-size: 60pt;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.section4 p{
+
+    text-align: center;
+    padding: 10px;
+    font-optical-sizing: auto;
+    font-weight: 400 bold;
+    font-style: normal;
+    font-size: 20pt;
+}

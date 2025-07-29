@@ -1,0 +1,83 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #111;
+}
+
+.logo h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    font-family: "cormorant-garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.logo img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+    
+}
+
+nav ul li a:hover {
+    color: #4c00d8; /* Change color on hover */
+}
+
+.login-btn {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+section.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #000000c0;
+    border: #111;
+    padding: 20px;
+    fill: #111;
+}
+
+section.hero h2 {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+section.hero p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
